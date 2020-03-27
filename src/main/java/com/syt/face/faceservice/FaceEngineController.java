@@ -74,6 +74,11 @@ public class FaceEngineController {
             e.printStackTrace();
             jsonObject.put("msg", "上传失败," + e.getMessage());
         }
+        return jsonObject;
+    }
+
+    @PostMapping("test/test")
+    public Object faceAllData() {
 
         return jsonObject;
     }
@@ -103,6 +108,8 @@ public class FaceEngineController {
         jsonObject.put("faceFeature", faceFeature);
 
     }
+
+
 
     /**
      * 初始化人脸引擎
