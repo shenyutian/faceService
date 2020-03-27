@@ -1,0 +1,19 @@
+server:
+  port: 8004
+
+# 虹软人脸参数
+appId: 8wg3VuJ8j5Fw2pNqg9gfrjAh5Ggar7ZahDAUewH7KmbY
+sdkKey: CbXWbZT9e8Nx2KmGN2ivPjSHregdWoPpkacixu9rkxAq
+lib: /root/java/face/lib
+img: /root/java/face/img
+
+# 自定义上传文件配置 服务器上需要修改 第一个win  第二个 linux  第三个 mac
+syt:
+  #  upload: F:\upload\
+  upload: /root/upload
+#  upload: /Users/space/Downloads/qq_file
+
+# ip 文件上传路径 下面是服务器ip ->  如果解析到网页上就在这加上网址就行了
+#ip: 127.0.0.1
+#ip: 111.229.170.213
+ip: 47.115.43.73
